@@ -1,0 +1,56 @@
+/* Aturan ini berlaku untuk semua elemen HTML. */
+* {
+  box-sizing: border-box; /* Menghitung padding dan border di dalam ukuran elemen. */
+}
+
+/* Mengatur tampilan seluruh halaman. */
+body {
+  min-height: 100vh; /* Membuat tinggi halaman minimal setinggi layar. */
+  margin: 0; /* Menghapus jarak bawaan di luar halaman. */
+  padding: 24px; /* Memberi jarak agar kartu tidak menempel ke tepi layar. */
+  display: flex; /* Mengaktifkan Flexbox untuk mengatur posisi isi halaman. */
+  align-items: center; /* Memposisikan isi halaman di tengah secara vertikal. */
+  justify-content: center; /* Memposisikan isi halaman di tengah secara horizontal. */
+  font-family: Arial, sans-serif; /* Memilih jenis huruf yang mudah dibaca. */
+  background-color: #f1f5f9; /* Memberi warna latar belakang abu-abu muda. */
+  color: #1e293b; /* Mengatur warna teks utama menjadi biru gelap. */
+}
+
+/* Mengatur kotak kartu yang menjadi isi utama halaman. */
+.kartu {
+  width: 100%; /* Membuat kartu menggunakan lebar ruang yang tersedia. */
+  max-width: 360px; /* Membatasi lebar kartu agar tidak terlalu besar. */
+  padding: 28px; /* Memberi jarak antara isi kartu dan tepinya. */
+  border-radius: 16px; /* Membuat sudut kartu tampak membulat. */
+  background-color: #ffffff; /* Memberi warna putih pada kartu. */
+  text-align: center; /* Membuat teks di dalam kartu rata tengah. */
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1); /* Menambahkan bayangan lembut di bawah kartu. */
+}
+
+/* Mengatur judul di dalam kartu. */
+.kartu h1 {
+  margin: 0 0 12px; /* Menghapus jarak atas dan memberi jarak bawah pada judul. */
+  font-size: 28px; /* Mengatur ukuran huruf judul. */
+}
+
+/* Mengatur paragraf penjelasan di dalam kartu. */
+.kartu p {
+  margin: 0 0 24px; /* Menghapus jarak atas dan memberi jarak sebelum tombol. */
+  color: #64748b; /* Membuat teks paragraf berwarna abu-abu. */
+  line-height: 1.6; /* Memberi jarak antarbaris agar paragraf nyaman dibaca. */
+}
+
+/* Mengatur tampilan tombol. */
+.tombol {
+  display: inline-block; /* Membuat tautan bisa diberi ukuran dan padding seperti tombol. */
+  padding: 12px 20px; /* Memberi jarak di dalam tombol, atas-bawah lalu kiri-kanan. */
+  border-radius: 8px; /* Membuat sudut tombol sedikit membulat. */
+  background-color: #2563eb; /* Memberi warna biru pada tombol. */
+  color: #ffffff; /* Membuat tulisan tombol berwarna putih. */
+  text-decoration: none; /* Menghilangkan garis bawah bawaan pada tautan. */
+}
+
+/* Mengubah warna tombol saat penunjuk mouse berada di atasnya. */
+.tombol:hover {
+  background-color: #1d4ed8; /* Menggelapkan warna tombol sebagai tanda interaksi. */
+}
