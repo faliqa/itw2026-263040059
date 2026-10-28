@@ -12,7 +12,7 @@ body {
   align-items: center; /* Memposisikan isi halaman di tengah secara vertikal. */
   justify-content: center; /* Memposisikan isi halaman di tengah secara horizontal. */
   font-family: Arial, sans-serif; /* Memilih jenis huruf yang mudah dibaca. */
-  background-color: #f1f5f9; /* Memberi warna latar belakang abu-abu muda. */
+  background-color: #d9dfe5; /* Memberi warna latar belakang abu-abu muda. */
   color: #1e293b; /* Mengatur warna teks utama menjadi biru gelap. */
 }
 
@@ -22,7 +22,7 @@ body {
   max-width: 360px; /* Membatasi lebar kartu agar tidak terlalu besar. */
   padding: 28px; /* Memberi jarak antara isi kartu dan tepinya. */
   border-radius: 16px; /* Membuat sudut kartu tampak membulat. */
-  background-color: #ffffff; /* Memberi warna putih pada kartu. */
+  background-color: #fbf7f7; /* Memberi warna putih pada kartu. */
   text-align: center; /* Membuat teks di dalam kartu rata tengah. */
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1); /* Menambahkan bayangan lembut di bawah kartu. */
 }
