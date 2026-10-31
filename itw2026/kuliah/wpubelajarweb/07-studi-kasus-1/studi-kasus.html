@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUAL TIKET KONSER</title>
+    <title>WPU StreamFest 2026 - Neon Nights Music Festiva</title>
 </head>
 <body>
     
     <!--1.header(buat link)-->
     <header>
-        <h1>JUAL TIKET KONSER</h1>
+        <h1>WPU StreamFest 2026</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -100,9 +100,205 @@
                 </figcaption>
             </figure>
         </section>
+
+        <hr>
+
+        <!-- 5. Schedule Section -->
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <table border="1" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Waktu</th>
+                        <th>Artist / Kegiatan</th>
+                        <th>Stage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Day 1 -->
+                    <tr>
+                        <th colspan="3">Day 1 - June 15, 2026</th>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 18:00</td>
+                        <td>Opening & Chill Session</td>
+                        <td>Chill Zone</td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:30</td>
+                        <td>Bernadya</td>
+                        <td>Side Stage</td>
+                    </tr>
+                    <tr>
+                        <td>21:00 - 23:00</td>
+                        <td>Hindia</td>
+                        <td>Main Stage</td>
+                    </tr>
+
+                    <!-- Day 2 -->
+                    <tr>
+                        <th colspan="3">Day 2 - June 16, 2026</th>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 18:00</td>
+                        <td>Acoustic & Community Hangout</td>
+                        <td>Chill Zone</td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:30</td>
+                        <td>Juicy Luicy</td>
+                        <td>Side Stage</td>
+                    </tr>
+                    <tr>
+                        <td>21:00 - 23:00</td>
+                        <td>Pamungkas</td>
+                        <td>Main Stage</td>
+                    </tr>
+
+                    <!-- Day 3 -->
+                    <tr>
+                        <th colspan="3">Day 3 - June 17, 2026</th>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 18:00</td>
+                        <td>DJ Performance & Interactive Games</td>
+                        <td>Chill Zone</td>
+                    </tr>
+                    <tr>
+                        <td>19:00 - 20:30</td>
+                        <td>Nadin Amizah</td>
+                        <td>Side Stage</td>
+                    </tr>
+                    <tr>
+                        <td>21:00 - 23:00</td>
+                        <td>.Feast</td>
+                        <td>Main Stage</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- 6. Tickets Section -->
+        <section id="tickets">
+            <h2>Tickets</h2>
+            <form action="#" method="POST">
+                <p>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan nama lengkap">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="contoh@email.com">
+                </p>
+
+                <p>
+                    <label for="telepon">Nomor Telepon:</label><br>
+                    <input type="tel" id="telepon" name="telepon" required placeholder="081234567890">
+                </p>
+
+                <p>
+                    <label>Tipe Tiket:</label><br>
+                    <input type="radio" id="regular" name="tipe_tiket" value="Regular" required>
+                    <label for="regular">Regular Rp 500,000</label><br>
+                    <input type="radio" id="vip" name="tipe_tiket" value="VIP">
+                    <label for="vip">VIP Rp 1,500,000</label><br>
+                    <input type="radio" id="vvip" name="tipe_tiket" value="VVIP">
+                    <label for="vvip">VVIP Rp 3,000,000</label>
+                </p>
+
+                <p>
+                    <label for="jumlah">Jumlah Tiket (1-10):</label><br>
+                    <input type="number" id="jumlah" name="jumlah" min="1" max="10" value="1" required>
+                </p>
+
+                <p>
+                    <label>Day Pass:</label><br>
+                    <input type="checkbox" id="day1" name="day_pass[]" value="Day 1">
+                    <label for="day1">Day 1 (June 15, 2026)</label><br>
+                    <input type="checkbox" id="day2" name="day_pass[]" value="Day 2">
+                    <label for="day2">Day 2 (June 16, 2026)</label><br>
+                    <input type="checkbox" id="day3" name="day_pass[]" value="Day 3">
+                    <label for="day3">Day 3 (June 17, 2026)</label>
+                </p>
+
+                <p>
+                    <button type="submit">Beli Tiket Sekarang</button>
+                </p>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <!-- Gallery Section -->
+<section id="gallery">
+    <h2>Festival Gallery</h2>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800" alt="Panggung Utama WPU StreamFest" width="400">
+        <figcaption>
+            <h3>Panggung Utama & Tata Lampu</h3>
+            <p>Pancaran sinar laser dan panggung megah Neon Nights.</p>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800" alt="Energi Penonton" width="400">
+        <figcaption>
+            <h3>Energi Penonton</h3>
+            <p>Keseruan ribuan pengunjung menikmati pertunjukan musik.</p>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800" alt="Perform Musisi" width="400">
+        <figcaption>
+            <h3>Performa Musisi</h3>
+            <p>Aksi panggung spektakuler dari artis-artis papan atas Indonesia.</p>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1565123409695-7b5ef63a2efb?w=800" alt="Area Food Court" width="400">
+        <figcaption>
+            <h3>Area Kuliner & Santai</h3>
+            <p>Beragam stan makanan dan minuman cashless di Chill Zone.</p>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800" alt="Instalasi Lampu Neon" width="400">
+        <figcaption>
+            <h3>Instalasi Lampu Neon</h3>
+            <p>Spot foto estetik berhiaskan lampu neon warna-warni.</p>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800" alt="Booth Merchandise" width="400">
+        <figcaption>
+            <h3>Booth Merchandise</h3>
+            <p>Pusat penjualan pakaian dan suvenir resmi WPU StreamFest.</p>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800" alt="Pemandangan Udara Festival" width="400">
+        <figcaption>
+            <h3>Pemandangan Udara Festival</h3>
+            <p>Gambaran keseluruhan area festival di Jakarta International Expo.</p>
+        </figcaption>
+    </figure>
+    </section>
     </main>
 
-
+    <footer>
+        <p>&copy; 2026 WPU StreamFest. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
